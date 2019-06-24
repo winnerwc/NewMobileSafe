@@ -19,7 +19,7 @@
             android:textSize="30dp" />
         <EditText
             android:id="@+id/phoneNumber"
-            android:text="请输入手机号码"
+            android:hint="请输入手机号码"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="100dp"
             android:layout_width="match_parent"

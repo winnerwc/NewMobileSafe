@@ -70,7 +70,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
         ly_filemanager.setOnClickListener(new toolsClickListener());
         ly_speed = viewTools.findViewById(R.id.ly_speed);
         ly_speed.setOnClickListener(new toolsClickListener());
-        mPhoneNumber = findViewById(R.id.phoneNumberLocation);
+        mPhoneNumber = viewTools.findViewById(R.id.phoneNumberLocation);
         mPhoneNumber.setOnClickListener(new toolsClickListener());
 
     }
